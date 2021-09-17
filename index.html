@@ -10,6 +10,7 @@
 
 <body>
 	<h1>Hello World!<h1/>
+	<p id="testi">hei</p>
 
 	<table>
 		<tr>
@@ -38,19 +39,26 @@
 		</tr>
 	</table>
 
-	<button id="add-comment" onclick="addComment"> 
-		Click
-	</button>
+	<button id="add-comment"" onclick="addComment()">
+			Click
+		</button>
 
-	<script>
-		function add-comment(){
-			document.getElementById("add-comment")
-		}
+		<script> 
+			function addComment(){
+				lista.innerHTML += `
+					<li>Pahaa<li>
 
-	</script>
+				`;
+			}
+			
+		</script>
 
-	<ul>
-		<li>Coffee</li>
+	
+
+
+	
+
+	<ul id="lista">
 	</ul>
 
 </body>

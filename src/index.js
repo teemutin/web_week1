@@ -1,5 +1,7 @@
 import "./styles.css";
 
-document.getElementById("app").innerHTML = `
+function addComment() {
+  alert("Hello");
+}
 
-`;
+addComment();
