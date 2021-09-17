@@ -1,7 +1,30 @@
-import "./styles.css";
+if (document.readyState !== "loading") {
+  console.log("Doc rdy");
+  initializeCode();
+} else {
+  document.addEventListener("DOMContentLoaded", function () {
+    console.log("Doc rdy soon");
+  });
+}
 
-function addComment() {
+function initializeCode() {
+  const addCommentButton = document.getElementById("add-comment");
+
+  addCommentButton.addEventListener("click", function () {
+    console.log("Hei");
+    const lista2 = document.getElementById("lista");
+    lista2.innerHTML = lista2.innerHTML + ".";
+  });
+}
+
+/*function addComment() {
   alert("Hello");
 }
 
 addComment();
+
+function addComment(){
+  lista.innerHTML = `
+    <li><li>`;
+}
+*/
