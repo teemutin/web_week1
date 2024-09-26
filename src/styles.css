@@ -1,3 +1,15 @@
 body {
-  font-family: sans-serif;
+  font-family: Garamond;
+}
+/*h2 {
+  font-family: Italic;
+}*/
+.header {
+  font-family: Italic;
+}
+table {
+  /*font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;*/
+  /*position: fixed;*/
+  text-align: left;
+  color: #f2f2f2;
 }

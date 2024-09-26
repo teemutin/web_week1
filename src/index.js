@@ -12,8 +12,7 @@ function initializeCode() {
 
   addCommentButton.addEventListener("click", function () {
     console.log("Hei");
-    const lista2 = document.getElementById("lista");
-    lista2.innerHTML = lista2.innerHTML + `<li>tassa</li>`;
+    //lista2.innerHTML = lista2.innerHTML + `<li>tassa</li>`;
   });
 }
 
